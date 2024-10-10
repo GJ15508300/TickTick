@@ -23,7 +23,7 @@ const DatePicker = () => {
     <div 
     className="flex items-center justify-center bg-gray-100 h-full"
     // min-h-screen
-    style={{flex:1}}
+    style={{backgroundColor:'papayawhip'}}
     >
     <div 
     className="p-4 bg-white shadow-md rounded-lg max-w-md w-full "

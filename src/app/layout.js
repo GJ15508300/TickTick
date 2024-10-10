@@ -13,7 +13,9 @@ export const metadata = {
 export default function RootLayout({Component, pageProps ,children }) {
   return (
     <html lang="en">
-      <body className="flex bg-gray-100"> {/* Set background color and flex layout */}
+      <body 
+      className="flex"
+      > {/* Set background color and flex layout */}
         <RecurrenceProvider>
           <SideBar />
           
